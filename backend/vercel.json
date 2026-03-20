@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "framework": "laravel",
+    "rewrites": [
+        { "source": "/(.*)", "destination": "/public/index.php" }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false"
+    }
+}
